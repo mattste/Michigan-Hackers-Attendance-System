@@ -1,7 +1,19 @@
 body {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px; 
   background-color: #3d3d3d;
+}
+
+#bg-banner {
+  height: 40px;
+  width: 235px;
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -100;
 }
 
 .form-signin {
