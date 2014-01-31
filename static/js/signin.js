@@ -1,14 +1,18 @@
 $(document).ready(function() {
 
-	$('.button-item').click(function(e){
-		e.preventDefault();
+	$('.event-item').click(function(e){
 		if ($(this).hasClass('selected-item')){
 			$(this).removeClass('selected-item');
 		}
 		else {
-			$('.button-item').removeClass('selected-item');
+			$('.selected-item').removeClass('selected-item');
 			$(this).addClass('selected-item');
 		}
+	});
+
+	$('.sign-in').click(function(e){
+		e.preventDefault();
+		// $('#submitted-event').val($(this).name);
 		
 	});
 	
