@@ -8,12 +8,11 @@ $(document).ready(function() {
 			$('.selected-item').removeClass('selected-item');
 			$(this).addClass('selected-item');
 		}
-	});
 
-	$('.sign-in').click(function(e){
-		e.preventDefault();
-		// $('#submitted-event').val($(this).name);
-		
+		var str = $('.selected-item .event-title').attr('name');
+
+		$('#submitted-event').val(str);
+
 	});
 	
 });
