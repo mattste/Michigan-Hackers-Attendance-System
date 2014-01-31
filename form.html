@@ -6,6 +6,8 @@
     <!-- Bootstrap -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/signin.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="static/js/signin.js"></script>
     <title> Michigan Hackers Sign-in </title>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,14 +21,9 @@
 
       <form class="form-signin" role="form">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="email" class="form-control" placeholder="uniqname" required autofocus>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me" id="hack-night"> Hack Night
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me" id="hack-night-volunteer"> Volunteering at Hack Night
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <input type="text" class="form-control" placeholder="uniqname" required autofocus>
+        <button type="button" class="button-item btn btn-default">Hack Night</button>
+        <button type="button" class="button-item btn btn-default">Hack Night Volunteer</button>
       </form>
 
     </div> <!-- /container -->
