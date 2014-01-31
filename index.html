@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/signin.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="static/js/signin.js"></script>
+    <title> Michigan Hackers Sign-in </title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Please Sign In.</h2><br>
+        <input type="text" class="form-control" placeholder="uniqname" required autofocus>
+        <input type="text" class="hide" id="submitted-event">
+        <br>
+        <table class="table">
+          <tr class="event-item">
+            <td class="event-title" name="hack-night" >Hack Night</td>
+            <td class="align-right">1</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="hack-night-volunteer" >Hack Night Volunteer</td>
+            <td class="align-right">2</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="tech-talk" >Attended Tech Talk</td>
+            <td class="align-right">1</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="give-tech-talk" >Gave a Tech Talk/Lightning Talk</td>
+            <td class="align-right">5</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="push-github" >Pushed to MH Github</td>
+            <td class="align-right">2</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="attend-hthon" >Attended UMich Sponsored Hackathon</td>
+            <td class="align-right">3</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="help-hthon" >Volunteered at UMich Hackathon</td>
+            <td class="align-right">4</td>
+          </tr>
+          <tr class="event-item">
+            <td class="event-title" name="away-hthon" >Attended Away Hackathon</td>
+            <td class="align-right">5</td>
+          </tr>
+        </table>
+
+        <button type="button" class="sign-in btn btn-default">Sign In!</button>
+      </form>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
