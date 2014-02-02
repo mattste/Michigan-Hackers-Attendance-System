@@ -7,13 +7,8 @@ body {
 }
 
 #bg-banner {
-  height: 40px;
-  width: 235px;
-
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: -100;
+  width: 85%;
+  margin: 20px;
 }
 
 .form-signin {
@@ -24,9 +19,13 @@ body {
   background-color: #eee;
 
 }
-.form-signin .form-signin-heading,
+.form-signin,
 .form-signin .checkbox {
   margin-bottom: 10px;
+}
+.form-signin-heading {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 .form-signin .checkbox {
   font-weight: normal;
