@@ -1,8 +1,8 @@
 body {
   padding-top: 60px;
   padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px; 
+  padding-right: 15px;
+  padding-left: 15px; 
   background-color: #3d3d3d;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .form-signin {
-  min-width: 330px;
+  min-width: 270px;
   max-width: 700px;
   padding: 15px;
   margin: 0 auto;
